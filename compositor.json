@@ -1,0 +1,92 @@
+{
+  "name": "richorw/web-grid-system",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Web Grid System",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/richorw/web-grid-system",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "web-grid-system",
+      "subhead": "A simple research for grid system in web design.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "web-grid-system: A simple research for grid system in web design.",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "richorw",
+          "repo": "web-grid-system"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h3>&#x7F51;&#x9875;&#x8BBE;&#x8BA1;&#x4E2D;&#x7684;&#x7F51;&#x683C;&#x7CFB;&#x7EDF; Grid System in Web Design</h3>\n<h4>&#x5386;&#x53F2;</h4>\n<ul>\n<li><p>&#x81EA;&#x7136;&#x754C;&#x7684;&#x7F51;&#x683C;&#x7CFB;&#x7EDF;</p>\n<ul>\n<li>&#x9EC4;&#x91D1;&#x5206;&#x5272;</li>\n<li>&#x4EBA;&#x4F53;&#x6BD4;&#x4F8B;</li>\n</ul>\n</li>\n<li><p>&#x5E73;&#x9762;&#x8BBE;&#x8BA1;&#x4E2D;&#x7684;&#x7F51;&#x683C;&#x7CFB;&#x7EDF;</p>\n<ul>\n<li>&#x6D77;&#x62A5;&#x8BBE;&#x8BA1;&#xFF1A;&#x5305;&#x8C6A;&#x65AF;&#x3001;&#x56FD;&#x9645;&#x4E3B;&#x4E49;&#x98CE;&#x683C;<ul>\n<li><a href=\"https://www.typographicposters.com/\">examples: Typographic Posters</a></li>\n</ul>\n</li>\n<li><p>&#x4E66;&#x7C4D;&#x8BBE;&#x8BA1;</p>\n<ul>\n<li><p><a href=\"https://en.wikipedia.org/wiki/Canons_of_page_construction\">Canons of Page Construction</a></p>\n</li>\n<li><p><a href=\"https://www.zhihu.com/question/20360591\">&#x4F01;&#x9E45;&#x51FA;&#x7248;&#x793E; Marber Grid</a></p>\n</li>\n</ul>\n</li>\n<li><p>&#x540D;&#x7247;&#x8BBE;&#x8BA1;</p>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s?__biz=MzA3MDQ2NDQ3Ng==&amp;mid=2650613407&amp;idx=1&amp;sn=48a95e8394dafebcf487f5c3312f1172&amp;chksm=8735e02cb042693a6ab8581d1dae943ed9e4006fc677c11bdb9ae64d1d7f5f5626b4f622c08a&amp;mpshare=1&amp;scene=1&amp;srcid=0104ceDZRj9vOagzf3emOQIz&amp;key=7c064f74f0bf80ece6525d10a4fb043a5ffb9f8cb2804b5c44b65fa7fbc2710296c55887c4438ed975705f2a92608fc805a3d2d07a7e031ee341576c0976e242c9518054fc83a3c45022a94a5ac17a9c&amp;ascene=0&amp;uin=MTM0MTY0NzQ2MQ%3D%3D&amp;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.12.2+build(16C67\">CA+ NameCard</a>&amp;version=12010210&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=QzxyneTQEsFoPVOrealrcOLTkimAbvB5i1rctpp0Lv%2FE3tKm%2BLY4DILrWmIVz6FL)</li>\n</ul>\n</li>\n<li><p>Logo &#x8BBE;&#x8BA1;</p>\n<ul>\n<li><a href=\"http://inkbotdesign.com/designing-logos-grid-system/\">Apple Grid</a></li>\n</ul>\n</li>\n<li><p>&#x5EFA;&#x7B51;&#x8BBE;&#x8BA1;</p>\n<ul>\n<li>&#x67EF;&#x5E03;&#x897F;&#x8036;&#xFF1A;<a href=\"https://book.douban.com/subject/25844182/\">&#x300A;&#x8D70;&#x5411;&#x65B0;&#x5EFA;&#x7B51;&#x300B;</a></li>\n</ul>\n</li>\n<li>&#x2026;&#x2026;</li>\n<li>&#x7F51;&#x9875;&#x8BBE;&#x8BA1;</li>\n</ul>\n</li>\n</ul>\n<h4>&#x7F51;&#x9875;&#x8BBE;&#x8BA1;&#x4E2D;&#x7684;&#x7F51;&#x683C;&#x7CFB;&#x7EDF;</h4>\n<h5>What &amp; How &#xFF1F;</h5>\n<ul>\n<li>&#x8BBE;&#x8BA1;&#xFF1A;&#x62C9;&#x53C2;&#x8003;&#x7EBF; - &#x786E;&#x5B9A;&#x7F51;&#x683C; - &#x6446;&#x653E;&#x7EC4;&#x4EF6;&#x5143;&#x7D20;<ul>\n<li>&#x7F51;&#x683C;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x89C4;&#x8303;<ul>\n<li>&#x4E00;&#x4E9B;&#x6982;&#x5FF5;<ul>\n<li>Column &amp; Gutter</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>&#x7F51;&#x9875;&#x7F51;&#x683C;&#x7CFB;&#x7EDF;&#x7684;&#x6D41;&#x53D8;&#xFF1A;&#x4ECE;&#x9759;&#x6001;&#x5230;&#x54CD;&#x5E94;&#x5F0F;<ul>\n<li><a href=\"http://960.gs/\">960 Grid</a></li>\n<li><a href=\"https://1200px.com/\">1200 Grid</a></li>\n<li><a href=\"http://www.elliotjaystocks.com/blog/a-better-photoshop-grid-for-responsive-web-design/\">1000 Grid for responsive design</a></li>\n<li><a href=\"http://unsemantic.com/\">Unsemantic Grid</a>&#xFF1A;responsive and freedom</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>&#x524D;&#x7AEF;&#xFF1A;&#x4F7F;&#x7528;&#x6846;&#x67B6;<ul>\n<li><a href=\"http://unsemantic.com/\">Unsemantic</a></li>\n<li><a href=\"http://getbootstrap.com/css/#grid\">Bootstrap</a></li>\n<li><a href=\"http://www.cascade-framework.com/grid.html\">Cascade</a></li>\n<li><a href=\"http://www.responsivegridsystem.com/\">Responsive Grid System</a></li>\n<li><a href=\"http://www.w3schools.com/css/css_rwd_grid.asp\">CSS Grid View</a></li>\n</ul>\n</li>\n<li>&#x65E5;&#x8D8B;&#x590D;&#x6742;&#x5316;<ul>\n<li>&#x591A;&#x91CD;&#x7F51;&#x683C;</li>\n<li>&#x7EC4;&#x4EF6;&#x7684;&#x7F51;&#x683C;&#x7CFB;&#x7EDF;</li>\n<li>&#x4E0D;&#x89C4;&#x5219;&#x7F51;&#x683C;</li>\n<li>&#x66F4;&#x4E3A;&#x590D;&#x6742;&#x7684;&#x54CD;&#x5E94;&#x5F0F;&#x8BBE;&#x8BA1;</li>\n</ul>\n</li>\n</ul>\n<h5>Why &#xFF1F;</h5>\n<ul>\n<li>&#x5386;&#x53F2; History<ul>\n<li>&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x65B0;&#x6280;&#x672F;&#x90FD;&#x662F;&#x65E7;&#x6280;&#x672F;&#x7684;&#x5EF6;&#x4F38;&#xFF0C;&#x7F51;&#x9875;&#x8BBE;&#x8BA1;&#x662F;&#x5370;&#x5237;&#x8BBE;&#x8BA1;&#x7684;&#x5EF6;&#x4F38;&#x3002;</li>\n<li>&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF1A;&#x4E3A;&#x4EC0;&#x4E48;&#x50CF;&#x7D20;&#x662F;&#x65B9;&#x5F62;&#x7684;&#xFF1F;&#x5982;&#x679C;&#x4EBA;&#x7C7B;&#x5DF2;&#x5F00;&#x59CB;&#x5EFA;&#x7ACB;&#x7684;&#x7F51;&#x683C;&#x7CFB;&#x7EDF;&#x662F;&#x57FA;&#x4E8E;&#x5706;&#x5F62;&#x7684;&#x8BDD;&#x2026;&#x2026;</li>\n</ul>\n</li>\n<li>&#x7F8E;&#x5B66; Asthetics<ul>\n<li>Rationality<ul>\n<li>&#x4FE1;&#x606F;&#x8BBE;&#x8BA1;&#xFF1A;&#x5FC5;&#x987B;&#x662F;&#x6210;&#x903B;&#x8F91;&#x7684;&#x3001;&#x6709;&#x6B21;&#x5E8F;&#x7684;&#x3001;&#x7406;&#x6027;&#x7684;</li>\n<li>&#x66F4;&#x5BB9;&#x6613;&#x6210;&#x4F53;&#x7CFB;&#x3001;&#x6210;&#x7406;&#x8BBA;&#x3001;&#x6210;&#x5957;&#x8DEF;</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>&#x529F;&#x5229;&#x6027; Utility<ul>\n<li>&#x66F4;&#x5BB9;&#x6613;&#x5F15;&#x5165;&#x751F;&#x4EA7;&#x6D41;&#x7A0B;&#xFF0C;&#x5DE5;&#x4E1A;&#x5316;&#xFF0C;&#x5546;&#x4E1A;&#x5316;</li>\n</ul>\n</li>\n</ul>\n<h5>Good or Bad ?</h5>\n<ul>\n<li>Good<ul>\n<li>&#x8BBE;&#x8BA1;&#xFF1A;&#x53EF;&#x7528;&#x6027;<ul>\n<li>&#x5EFA;&#x7ACB;&#x7528;&#x6237;&#x4E60;&#x60EF;</li>\n<li>&#x4FDD;&#x6301;&#x98CE;&#x683C;&#x7EDF;&#x4E00;</li>\n</ul>\n</li>\n<li>&#x751F;&#x4EA7;&#xFF1A;&#x590D;&#x7528;&#x6027;<ul>\n<li>&#x5BF9;&#x4E8E;&#x8BBE;&#x8BA1;&#x5E08;&#xFF1A;&#x964D;&#x4F4E;&#x8BBE;&#x8BA1;&#x96BE;&#x5EA6;</li>\n<li>&#x5BF9;&#x4E8E;&#x524D;&#x7AEF;&#x5DE5;&#x7A0B;&#x5E08;&#xFF1A;&#x6A21;&#x5757;&#x5316;&#xFF0C;&#x964D;&#x4F4E;&#x5DE5;&#x7A0B;&#x91CF;</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Bad<ul>\n<li>Creativity &#xFF1F;&#x8BBE;&#x8BA1;&#x662F;&#x201C;&#x6234;&#x7740;&#x9563;&#x94D0;&#x8DF3;&#x821E;&#x201D;&#xFF0C;&#x6CA1;&#x6709;&#x9650;&#x5236;&#x5C31;&#x6CA1;&#x6709;&#x521B;&#x9020;&#x3002;</li>\n</ul>\n</li>\n</ul>\n<h5>Future</h5>\n<ul>\n<li>&#x518D;&#x770B;&#x5386;&#x53F2;<ul>\n<li>&#x5370;&#x5237; Print<ul>\n<li>&#x786E;&#x5B9A;&#x7684;&#x5C3A;&#x5BF8;</li>\n<li>&#x786E;&#x5B9A;&#x7684;&#x5448;&#x73B0;&#x65B9;&#x5F0F;&#xFF1A;&#x5E73;&#x9762;</li>\n</ul>\n</li>\n<li>&#x7F51;&#x9875; Web Page<ul>\n<li>&#x4E0D;&#x786E;&#x5B9A;&#x7684;&#x5C3A;&#x5BF8;&#xFF1A;&#x5F39;&#x6027;&#x5316;&#x8BBE;&#x8BA1;&#xFF08;Resilient Design&#xFF09;</li>\n<li>&#x786E;&#x5B9A;&#x7684;&#x5448;&#x73B0;&#x65B9;&#x5F0F;&#xFF1A;&#x5E73;&#x9762;</li>\n</ul>\n</li>\n<li>&#x4FE1;&#x606F;&#x9875; Information Flow &#xFF1A;&#x5982;&#x4F55;&#x4FDD;&#x8BC1;&#x7F51;&#x683C;&#x7CFB;&#x7EDF;&#xFF1F;<ul>\n<li>&#x4E0D;&#x786E;&#x5B9A;&#x7684;&#x5C3A;&#x5BF8;</li>\n<li>&#x4E0D;&#x786E;&#x5B9A;&#x7684;&#x5448;&#x73B0;&#x65B9;&#x5F0F;<ul>\n<li>&#x7269;&#x4F53;&#x4E4B;&#x4E0A;&#x7684;&#x5C4F;&#x5E55;&#xFF0C;&#x975E;&#x5E73;&#x9762;</li>\n<li>VR&#x3001;AR &#x4E4B;&#x4E2D;&#x7684;&#x4FE1;&#x606F;&#x9875;&#xFF1A;&#x7ACB;&#x4F53;&#xFF0C;&#x900F;&#x89C6;</li>\n<li>&#x8111;&#x673A;&#x63A5;&#x53E3;&#xFF1A;&#x4FE1;&#x606F;&#x6D41;</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<blockquote>\n<p> &#x672A;&#x6765;&#x7684;&#x7F51;&#x683C;&#x4F1A;&#x662F;&#x600E;&#x6837;&#x7684;&#xFF1F;</p>\n</blockquote>\n<h4>Reference</h4>\n<p><a href=\"https://zhuanlan.zhihu.com/p/22373380\">&#x300A;&#x5E73;&#x9762;&#x8BBE;&#x8BA1;&#x4E2D;&#x7684;&#x7F51;&#x683C;&#x7CFB;&#x7EDF;&#x300B;</a></p>\n<p><a href=\"http://www.thegridsystem.org/\">A collection of resources and templates of Grid System</a></p>\n<p><a href=\"http://thegridsystem.net/\">The ultimate resource in grid systems</a></p>\n<p><a href=\"https://github.com/eBay/Design-Grid-Overlay\">A Chrome Extention for Grid System Preview</a></p>\n<p><a href=\"https://resilientwebdesign.com/\">Resilient Design by Jeremy Keith</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/richorw/web-grid-system",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/richorw",
+          "text": "richorw"
+        }
+      ]
+    }
+  ]
+}
